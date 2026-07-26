@@ -1,0 +1,13 @@
+{
+  "name": "orden-pendiente-gato",
+  "version": "1.0.0",
+  "description": "Página de compra pendiente de pago — Negocios Digitales con Gato",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+
