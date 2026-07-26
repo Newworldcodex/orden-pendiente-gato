@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Tu cupo está asegurado — Negocios Digitales con Gato</title>
+  <meta name="description" content="Tu compra fue confirmada. Entra a la comunidad.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-top: #0B0E14;
+      --bg-bottom: #141821;
+      --accent: #A855F7;
+      --accent-hover: #9741E4;
+      --text: #FFFFFF;
+      --muted: #8A94A6;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      background: #0B0E14;
+    }
+
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+      color: var(--text);
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 24px 32px;
+    }
+
+    main {
+      width: 100%;
+      max-width: 620px;
+      text-align: center;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .label {
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 40px;
+    }
+
+    .bars {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 28px;
+    }
+
+    .bars span {
+      display: block;
+      width: 26px;
+      height: 4px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
+    h1 {
+      font-family: 'Anton', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: clamp(2.2rem, 9vw, 3.5rem);
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+      margin-bottom: 32px;
+    }
+
+    .copy p {
+      font-size: 1.0625rem;
+      color: var(--text);
+      margin-bottom: 22px;
+    }
+
+    .step {
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-top: 14px;
+      margin-bottom: 14px;
+    }
+
+    .copy p.small {
+      font-size: 0.9375rem;
+      color: var(--muted);
+      margin-bottom: 0;
+      margin-top: 14px;
+    }
+
+    .copy p.small a {
+      color: var(--muted);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      overflow-wrap: break-word;
+      white-space: nowrap;
+    }
+
+    .copy p.small a:hover,
+    .copy p.small a:focus {
+      color: var(--text);
+    }
+
+    .cta {
+      display: block;
+      width: 100%;
+      max-width: 420px;
+      margin: 32px auto 0;
+      padding: 16px 32px;
+      min-height: 48px;
+      background: var(--accent);
+      color: #FFFFFF;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 6px;
+      transition: background 0.15s ease;
+    }
+
+    .cta:hover,
+    .cta:focus {
+      background: var(--accent-hover);
+    }
+
+    .cta-note {
+      font-size: 0.9375rem;
+      color: var(--muted);
+      margin-top: 18px;
+      margin-bottom: 0;
+    }
+
+    footer {
+      width: 100%;
+      max-width: 620px;
+      text-align: center;
+      margin-top: 64px;
+      font-size: 0.8125rem;
+      color: var(--muted);
+    }
+
+    @media (min-width: 640px) {
+      body {
+        padding: 64px 32px 40px;
+      }
+
+      .copy p {
+        font-size: 1.125rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="label">Negocios Digitales con Gato</p>
+
+    <div class="bars" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <h1>Tu cupo está asegurado</h1>
+
+    <div class="copy">
+      <p>Ya eres parte de la Cohorte Fundadora. Gracias por confiar.</p>
+
+      <p class="step">Paso 1 — Entra a la comunidad</p>
+
+      <p>Ahí va a estar todo: las clases en vivo, las grabaciones, los documentos de cada sesión y el material de apoyo. También es donde vamos a resolver dudas durante todo el proceso.</p>
+      <p>Solicita acceso con el mismo correo con el que compraste y yo te apruebo la entrada, normalmente en menos de 24 horas.</p>
+
+      <a class="cta" href="https://www.skool.com/negocios-digitales-con-gato-9813/about">Entrar a la comunidad</a>
+
+      <p class="cta-note">Las clases arrancan en agosto. Te aviso por la comunidad el día y la hora de cada una.</p>
+
+      <p class="small">¿Algún problema con el acceso? Escríbeme a <a href="mailto:colaboracionesgato369@gmail.com">colaboracionesgato369@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer>© 2026 Negocios Digitales con Gato</footer>
+</body>
+</html>
+
